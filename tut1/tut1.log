@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2015/dev/Debian) (preloaded format=pdflatex 2015.8.4)  7 AUG 2015 23:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2015/dev/Debian) (preloaded format=pdflatex 2015.8.4)  7 AUG 2015 23:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -115,22 +115,32 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 8.
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) (./q1.tex
-Underfull \hbox (badness 10000) in paragraph at lines 15--16
-
+Overfull \hbox (61.14082pt too wide) in paragraph at lines 24--24
+[] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 30--31
+Underfull \hbox (badness 10000) in paragraph at lines 26--27
 
  []
 
 [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]) (./q2.tex
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+Underfull \hbox (badness 10000) in paragraph at lines 36--37
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 51--52
+
+ []
+
+) (./q2.tex [2]
 
 LaTeX Warning: Command \o invalid in math mode on input line 33.
 
-) (./q3.tex) (./q4.tex [2]) (./q5.tex
+) (./q3.tex) (./q4.tex [3]) (./q5.tex
 Overfull \hbox (1.02106pt too wide) in paragraph at lines 6--7
 \OT1/cmr/m/n/12 fore it is true for all in-ter-pre-ta-tions in Mod(K). There-fo
 re $\OML/cmm/m/it/12 Mod\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 K \OMS/cmsy/m/n/12 [
@@ -141,7 +151,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--3
 
  []
 
-[3]
 
 LaTeX Warning: Command \o invalid in math mode on input line 13.
 
@@ -155,11 +164,11 @@ LaTeX Warning: Command \o invalid in math mode on input line 13.
 Here is how much of TeX's memory you used:
  1145 strings out of 493105
  12594 string characters out of 6137073
- 71516 words of memory out of 5000000
+ 73516 words of memory out of 5000000
  4632 multiletter control sequences out of 15000+600000
  11490 words of font info for 45 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 27i,14n,24p,372b,272s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 27i,14n,24p,372b,277s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
 cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmm
 i12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb
@@ -170,11 +179,12 @@ texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-di
 st/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fon
 ts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type
 1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
-c/amsfonts/symbols/msbm10.pfb>
-Output written on tut1.pdf (4 pages, 109165 bytes).
+c/amsfonts/symbols/msam10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
+/amsfonts/symbols/msbm10.pfb>
+Output written on tut1.pdf (4 pages, 117743 bytes).
 PDF statistics:
- 61 PDF objects out of 1000 (max. 8388607)
- 43 compressed objects within 1 object stream
+ 65 PDF objects out of 1000 (max. 8388607)
+ 46 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

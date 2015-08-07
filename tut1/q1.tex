@@ -5,10 +5,31 @@
             &\Leftrightarrow \alpha \in Z \text{ and } (\alpha \in X \text{ or } \alpha \in Y)\\
             &\Leftrightarrow (\alpha \in Z \text{ and } \alpha \in X) \text{ or } (\alpha \in Z \text{ and } \alpha \in Y)\\
             &\Leftrightarrow \alpha \in Z \cap X \text{ or } \alpha \in Z \cap Y\\
-            &\Leftrightarrow \alpha \in (Z \cap X) \cup (Z \cap Y)\\
+            &\Leftrightarrow \alpha \in (Z \cap X) \cup (Z \cap Y)
         \end{align*}
 
-    \item
+    \item (2.13.4)
+    \begin{align*}
+        \text{Take } \alpha \in X \vartriangle (Y \vartriangle Z) &\Leftrightarrow \alpha \in X \text{ and } \alpha \notin (Y \vartriangle Z) \text{ or } \alpha \in (Y \vartriangle Z) \text{ and } \alpha \notin X\\
+        &\Leftrightarrow \alpha \in X \text{ and } \alpha \notin Y \text{ and } \notin Z \text{ or }\\ 
+        &\alpha \notin X \text{ and } \alpha \in Y \text{ and } \notin Z \text{ or }\\ 
+        &\alpha \notin X \text{ and } \alpha \notin Y \text{ and } \in Z \text{ or }\\ 
+        &\alpha \in X \text{ and } \alpha \in Y \text{ and } \in Z\\
+        \text{Now take } \alpha \in (X \vartriangle Y) \vartriangle Z &\Leftrightarrow \alpha \in (X \vartriangle Y) \text{ and } \alpha \notin Z \text{ or } \alpha \in Z \text{ and } \alpha \notin (X \vartriangle Y)\\
+        &\Leftrightarrow \alpha \in X \text{ and } \alpha \notin Y \text{ and } \notin Z \text{ or }\\ 
+        &\alpha \notin X \text{ and } \alpha \in Y \text{ and } \notin Z \text{ or }\\ 
+        &\alpha \notin X \text{ and } \alpha \notin Y \text{ and } \in Z \text{ or }\\ 
+        &\alpha \in X \text{ and } \alpha \in Y \text{ and } \in Z\\
+        \therefore X \vartriangle (Y \vartriangle Z) = (X \vartriangle Y) \vartriangle Z
+    \end{align*}
+
+    (2.13.5) Consider:\\
+    \begin{align*}
+        (X \cup Y) \setminus (X \wedge Y) &= ((X \cup Y) \setminus X) \cup ((X \cup Y) \ Y)\\
+        &= (Y \setminus X) \cup (X \setminus Y)\\
+        &= X \vartriangle Z\\
+        \therefore X \vartriangle Y = (X \cup Y) \setminus (X \cap Y)
+    \end{align*}
 
     \item Note that $2^{\cup_{i \in I} X_{i}} \nsubseteq \cup_{i \in I} 2^{X_{i}}$. This can be easily seen through example. Consider $X_{i} = \{\{1,2\},\{3\}\}$. Now $\{1,2,3\} \in 2^{\cup_{i \in I} X_{i}}$ but $\{1,2,3\} \notin \cup_{i \in I} 2^{X_{i}}$. Therefore $2^{\cup_{i \in I} X_{i}} \nsubseteq \cup_{i \in I} 2^{X_{i}}$.
 
