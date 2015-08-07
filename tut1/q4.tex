@@ -1,3 +1,28 @@
-\begin{enumerate}
+% {A ∧ B → C} |= (A → C) ∨ (B → C)
+First consider:
+\begin{align*}
+    \{A \wedge B \rightarrow C\} &\Leftrightarrow \neg(A \wedge B) \vee C\\
+    &\Leftrightarrow \neg A \vee \neg B \vee C
+\end{align*}
 
-\end{enumerate}
+Now consider:
+\begin{align*}
+    (A \rightarrow C) \vee (B \rightarrow C) &\Leftrightarrow \neg A \vee C \vee \neg B \vee C\\
+    &\Leftrightarrow \neg A \vee \neg B \vee C
+\end{align*}
+
+So clearly:
+\begin{align*}
+    \{A \wedge B \rightarrow C\} \models (A \rightarrow C) \vee (B \rightarrow C)
+\end{align*}
+
+However consider below where (A,B,C) is an ordered tuple representing the respective truth values:
+\begin{align*}
+    (T,F,F), (T,F,T) \in \{A \wedge B \rightarrow C\}\\
+    \text{But: } (T,F,F) \notin A \rightarrow C\\
+    \text{Therefore: } \{A \wedge B \rightarrow C\} \nvDash A \rightarrow C\\
+    \text{and}\\
+    (F,T,F), (F,T,T) \in \{A \wedge B \rightarrow C\}\\
+    \text{But: } (F,T,F) \notin B \rightarrow C\\
+    \text{Therefore: } \{A \wedge B \rightarrow C\} \nvDash B \rightarrow C
+\end{align*}
