@@ -10,12 +10,14 @@
 
     \item (2.13.4)
     \begin{align*}
-        \text{Take } \alpha \in X \vartriangle (Y \vartriangle Z) &\Leftrightarrow \alpha \in X \text{ and } \alpha \notin (Y \vartriangle Z) \text{ or } \alpha \in (Y \vartriangle Z) \text{ and } \alpha \notin X\\
+        \text{Take } \alpha \in X \vartriangle (Y \vartriangle Z) &\Leftrightarrow \alpha \in X \text{ and } \alpha \notin (Y \vartriangle Z) \text{ or }\\
+        &\alpha \in (Y \vartriangle Z) \text{ and } \alpha \notin X\\
         &\Leftrightarrow \alpha \in X \text{ and } \alpha \notin Y \text{ and } \notin Z \text{ or }\\ 
         &\alpha \notin X \text{ and } \alpha \in Y \text{ and } \notin Z \text{ or }\\ 
         &\alpha \notin X \text{ and } \alpha \notin Y \text{ and } \in Z \text{ or }\\ 
         &\alpha \in X \text{ and } \alpha \in Y \text{ and } \in Z\\
-        \text{Now take } \alpha \in (X \vartriangle Y) \vartriangle Z &\Leftrightarrow \alpha \in (X \vartriangle Y) \text{ and } \alpha \notin Z \text{ or } \alpha \in Z \text{ and } \alpha \notin (X \vartriangle Y)\\
+        \text{Now take } \alpha \in (X \vartriangle Y) \vartriangle Z &\Leftrightarrow \alpha \in (X \vartriangle Y) \text{ and } \alpha \notin Z \text{ or }\\ 
+        &\alpha \in Z \text{ and } \alpha \notin (X \vartriangle Y)\\
         &\Leftrightarrow \alpha \in X \text{ and } \alpha \notin Y \text{ and } \notin Z \text{ or }\\ 
         &\alpha \notin X \text{ and } \alpha \in Y \text{ and } \notin Z \text{ or }\\ 
         &\alpha \notin X \text{ and } \alpha \notin Y \text{ and } \in Z \text{ or }\\ 
@@ -25,7 +27,7 @@
 
     (2.13.5) Consider:\\
     \begin{align*}
-        (X \cup Y) \setminus (X \wedge Y) &= ((X \cup Y) \setminus X) \cup ((X \cup Y) \ Y)\\
+        (X \cup Y) \setminus (X \cap Y) &= ((X \cup Y) \setminus X) \cup ((X \cup Y) \ Y)\\
         &= (Y \setminus X) \cup (X \setminus Y)\\
         &= X \vartriangle Z\\
         \therefore X \vartriangle Y = (X \cup Y) \setminus (X \cap Y)
