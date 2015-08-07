@@ -10,7 +10,7 @@
 
     \item
 
-    \item
+    \item Note that $2^{\cup_{i \in I} X_{i}} \nsubseteq \cup_{i \in I} 2^{X_{i}}$. This can be easily seen through example. Consider $X_{i} = \{\{1,2\},\{3\}\}$. Now $\{1,2,3\} \in 2^{\cup_{i \in I} X_{i}}$ but $\{1,2,3\} \notin \cup_{i \in I} 2^{X_{i}}$. Therefore $2^{\cup_{i \in I} X_{i}} \nsubseteq \cup_{i \in I} 2^{X_{i}}$.
 
     \item Prove that $X\times(Y \cup Z) = (X \times Y) \cup (X \times Z)$\\
         \begin{align*}
@@ -18,5 +18,21 @@
             &\Leftrightarrow x \in X \text{ and } y \in Y \text{ or } x \in X \text{ and } y \in Z\\
             &\Leftrightarrow (x,y) \in  (X \times Y) \cup (X \times Z)
         \end{align*}
+
+    \item 
+    (4.2.1)
+    \begin{align*}
+        (R^{-1})^{-1} &= (\{(y,x) \in Y \times X : xRy\})^{-1}\\
+        &=\{(x,y) \in X \times Y : xRy\}\\
+        &=R
+    \end{align*}
+
+    (4.2.2)\\
+    \begin{align*}
+        dom(R^{-1}) &= \{y \in Y : (\exists x \in X) xRy\}\\
+        &= range(R)\\
+        range(R^{-1}) &= \{x \in X : (\exists y \in Y) xRy\}\\
+        &= dom(R)    
+    \end{align*}
 
 \end{enumerate}
