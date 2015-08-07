@@ -1,3 +1,14 @@
 \begin{enumerate}
+    \item Consider $\alpha \in \mathcal{L}$. Then:\\
+    \begin{align*}
+        Mod(\alpha) = Mod(\alpha) &\Rightarrow Mod(\alpha) \subseteq Mod(\alpha)\\
+        &\Rightarrow \alpha \models \alpha
+    \end{align*}
 
+    \item Consider $Mod(K \cup \{B\})$:
+    
+        $Mod(K \cup \{B\}) = Mod(K) \cap Mod(\{B\}) \subseteq Mod(K) \subseteq Mod(\alpha)\\$
+        $\text{Therefore } K \cup \{B\} \models \alpha$
+    
+    \item If $p, \neg p \in K$ then $K$ is unsatisfiable and $Mod(K) = \o$. Since $\o$ is contained in all sets $Mod(K) = \o \subseteq Mod(\gamma) \text{ for every } \gamma \in \mathcal{L}$. Therefore $K \models \gamma \text{ for every } \gamma \in \mathcal{L}$.
 \end{enumerate}
