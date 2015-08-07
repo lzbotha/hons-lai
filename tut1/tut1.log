@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2015/dev/Debian) (preloaded format=pdflatex 2015.8.4)  7 AUG 2015 22:45
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2015/dev/Debian) (preloaded format=pdflatex 2015.8.4)  7 AUG 2015 23:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -125,7 +125,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 15--16
 
 LaTeX Warning: Command \o invalid in math mode on input line 33.
 
-) (./q3.tex) (./q4.tex [2]) (./q5.tex) (./q6.tex
+) (./q3.tex) (./q4.tex [2]) (./q5.tex
+Overfull \hbox (1.02106pt too wide) in paragraph at lines 6--7
+\OT1/cmr/m/n/12 fore it is true for all in-ter-pre-ta-tions in Mod(K). There-fo
+re $\OML/cmm/m/it/12 Mod\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 K \OMS/cmsy/m/n/12 [
+ []
+
+) (./q6.tex
 Underfull \hbox (badness 10000) in paragraph at lines 2--3
 
  []
@@ -154,7 +160,7 @@ i12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb
 ></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/
 share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/
 texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on tut1.pdf (3 pages, 66407 bytes).
+Output written on tut1.pdf (3 pages, 68887 bytes).
 PDF statistics:
  38 PDF objects out of 1000 (max. 8388607)
  26 compressed objects within 1 object stream

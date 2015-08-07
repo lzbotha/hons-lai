@@ -1,3 +1,16 @@
 \begin{enumerate}
+    \item Consider $Mod(\alpha) \cap Mod(\beta)$. These are the interpretations where both $\alpha$ and $\beta$ are satisfied, i.e. $\alpha$ and $\beta$ are both satisfied, hence $ Mod(\alpha) \cap Mod(\beta) = Mod(\alpha \wedge \beta)$.
 
+    \item The models of $\neg \alpha$ are all interpretations where $\alpha$ is false, or all interpretations where $\alpha$ is not true. In other words all interpretations in $W - Mod(\alpha)$.
+
+    \item Note that if $\alpha$ is valid then it is true in all interpretations. Therefore it is true for all interpretations in Mod(K). Therefore $Mod(K \cup \{\alpha\}) = Mod(K)$ and is therefore satisfiable.
+
+    \item If $\alpha \equiv \beta$ then all interpretations that are true for $\alpha$ are also true for $\beta$, and vice versa. Therefore:
+    \begin{align*}
+        Mod(\alpha) = Mod{\beta} &\Leftrightarrow Mod(\alpha) \subseteq Mod(\beta) and Mod(\beta) \subseteq Mod(\alpha)\\
+        &\Leftrightarrow \alpha \models \beta \text{ and } \beta \models \alpha
+    \end{align*}
+
+
+    \item
 \end{enumerate}
